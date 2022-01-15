@@ -1,5 +1,6 @@
 .modal {
-    display: block;
+    display: flex-box;
+    align-items: center;
     position: fixed;
     z-index: 1;
     left: 25%;
@@ -13,13 +14,13 @@
 
 @media only screen and (max-width: 500px){
     .modal {
-        height: 75vh;
+        height: 55vh;
         width: 55vw;
-        top: 10%;
+        top: 15%;
     }
 }
 
-@media only screen and (min-height: 600px){
+@media only screen and (min-width: 600px){
     .modal {
         height: 40vh;
         top: 25%;
